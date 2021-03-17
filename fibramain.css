@@ -16,9 +16,16 @@ body {
     margin-right: 500px;
     margin-top: 0px;
    width: 1000px;
-   height: 40px;
+   height: 60px;
 }
-
+#a2
+{
+    background-color: rgb(250, 153, 26);
+   margin-left: 0px;
+   margin-right: 500px;
+  width: 1000px;
+  height: 250px;
+}
 #main {
     width: 1000px;
     height: 1500px;
@@ -78,12 +85,3 @@ body {
     /* domyślne powtarzanie grafiki w tle zmieniamy na powtarzanie jedynie w poziomie */
     /* background-repeat: repeat-x;
 }  */ */ */
-#a2
-{
-    background-color: rgb(250, 153, 26);
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 1250px;
-    width: 1000px;
-    height: 1250px;
-}
