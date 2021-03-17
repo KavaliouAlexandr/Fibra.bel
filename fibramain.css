@@ -14,74 +14,65 @@ body {
     background-color: rgb(247, 142, 6);
     margin-left: 500px;
     margin-right: 500px;
-    margin-top: 0px;
+    
    width: 1000px;
    height: 60px;
 }
 #a2
 {
     background-color: rgb(247, 142, 6);
-   margin-left: 0px;
-   margin-right: 500px;
+
   width: 1000px;
   height: 250px;
 }
 #main {
     width: 1000px;
-    height: 1500px;
+    height: 1250px;
     /* stary sposób środkowania elementów - dalej używany na stronach */
     /* margin: 0 auto; */
 }
-#columns {
+#b1
+{
+    text-align: center;
+
+    background-color: rgba(124, 127, 129, 0.63);
+   
+  width: 1000px;
+  height: 1250px;
+  
+}
+/* #columns {
     display: flex;
     background-color: rgba(29, 30, 31, 0.63);
     width: 1000px;
     height: 1500px;
     /* wyrównanie elementów do krawędzi - wolna przestrzeń pomiędzy elementami */
-    justify-content: space-between;
+    /* justify-content: space-between;
     height: 1250px;
 }
-#column-left {
+#column-center {
     width: 400px;
     text-align: center;
     font-size: 14px;
     /* wysokość wiersza tekstu */
-    line-height: 24px;
-}
-#column-left a {
-    /* kapitalizacja liter*/
-    text-transform: uppercase;
-    /* podkreślenie off */
-    text-decoration: none;
-    font-size: 20px;
-}
-#column-right {
+    /* line-height: 24px;
+} */ */ */
+
+
+/* #column-right {
 
     width: 200px;
     height: 200px;
     background: rgb(39, 148, 199);
     /* zaokrąglenie narożników */
-    border-radius: 50%;
+    /* border-radius: 50%;
     /* przezroczystość elementu (oraz jego zawartości) */
-    opacity: 0.7;
-}
-#circle2 {
-
-    margin-left: -40px;
-    opacity: 0.7;
-}
-/* :hover - style stosowany gdy element ma stan "hover" - po najechaniu myszą */
-#circle:hover {
-    opacity: 0.85;
-}
-/* body {
-    padding: 100px;
-    color: #fff;
-    height: 100px;
-    /* cały element ma domyślnie zadany kolor tła */
-    /* background-color: #e48315;
-    /* do tego na samej górze w tle jest grafika zabek.jpg */
-   
-    /* domyślne powtarzanie grafiki w tle zmieniamy na powtarzanie jedynie w poziomie */
-    /* background-repeat: repeat-x;
-}  */ */ */
+    /* opacity: 0.7;
+} */ */ */
+/* #column-left a {
+    /* kapitalizacja liter*/
+    /* text-transform: uppercase;
+    /* podkreślenie off */
+    /* text-decoration: none;
+    font-size: 20px;
+} */ */ */
