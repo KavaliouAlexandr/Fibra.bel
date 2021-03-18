@@ -11,52 +11,54 @@ body {
 }
 #a1
 {
-    background-color: rgb(247, 142, 6);
+    /* background-color: rgba(124, 127, 129, 0.63); */
     margin-left: 500px;
     margin-right: 500px;
     
    width: 1000px;
-   height: 60px;
+   height: 50px;
 }
 #columns {
     
     display: flex;
     
-    background-color: rgb(247, 142, 6);
+    
     width: 1000px;
-    height: 10px;
+    height: 50px;
     
      justify-content: space-between;
    
-    /* margin-top: ;  */
+   
 }
 #column-left {
     
     text-align: left;
     width: 40px;
     height: 40px;
-    margin-top: 5px;
+    
     
 } 
 #column-center {
+    
     width: 380px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     /* background-color: rgba(252, 245, 245, 0.582); */
     justify-content: space-between;
     
-     margin-left: 310px;
+     margin-left: 350px;
      
 } 
 #column-right
 {
+    
     width: 380px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     /* background-color: rgba(252, 245, 245, 0.582); */
     justify-content: space-between;
-    margin-left: 80px;
-    margin-bottom: 10px;
+    margin-left: 100px;
+    
      
 
 }
@@ -68,10 +70,11 @@ body {
   height: 250px;
 }
 #main {
-    display: flex;
+    /* display: flex; */
     width: 1000px;
     height: 1250px;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 50px;
     /* stary sposób środkowania elementów - dalej używany na stronach */
     /* margin: 0 auto; */
 }
@@ -86,7 +89,13 @@ body {
   
 }
  
-
+#a3
+{
+    background-color: rgb(247, 142, 6);
+    width: 1000px;
+   height: 50px;
+   /* margin-top: 50px; */
+}
 
  
 /* #column-left a {
